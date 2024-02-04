@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>明日方舟公开招募计算器</title>
+	<style>
+		h1 {
+			font-size: 18px;
+		}
+		h2 {
+			font-size: 16px;
+		}
+		.category {
+			font-weight: bold;
+			margin-bottom: 8px;
+			padding-left: 8px;
+		}
+		.card {
+			background-color: #f1f1f1;
+			margin-bottom: 16px;
+			padding: 8px;
+		}
+		.row {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 8px;
+			padding: 8px;
+		}
+		.advanced-tag {
+			background-color: #313131;
+			color: #ecdf5e;
+			font-weight: bold;
+			padding: 6px;
+		}
+		.normal-tag {
+			background-color: #313131;
+			color: #ffffff;
+			font-weight: bold;
+			padding: 6px;
+		}
+		.selected-tag {
+			background-color: #0098dc;
+			color: #ffffff;
+			font-weight: bold;
+			padding: 6px;
+		}
+		.operator {
+			width: 64px;
+			height: 64px;
+			background-color: #d8b3d8;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.operator > img {
+			width: 80%;
+		}
+	</style>
+</head>
+<body>
+	<h1>公招计算</h1>
+	<h2>选择标签</h2>
+	<div>
+		<div class="card">
+			<div class="category">资历</div>
+			<div class="row">
+				<div class="advanced-tag">高级资深干员</div>
+				<div class="advanced-tag">资深干员</div>
+				<div class="normal-tag">新手</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="category">职业</div>
+			<div class="row">
+				<div class="normal-tag">先锋干员</div>
+				<div class="normal-tag">近卫干员</div>
+				<div class="normal-tag">重装干员</div>
+				<div class="selected-tag">狙击干员</div>
+				<div class="normal-tag">术士干员</div>
+				<div class="normal-tag">医疗干员</div>
+				<div class="normal-tag">辅助干员</div>
+				<div class="normal-tag">特种干员</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="category">位置</div>
+			<div class="row">
+				<div class="normal-tag">近战位</div>
+				<div class="normal-tag">远程位</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="category">词缀</div>
+			<div class="row">
+				<div class="normal-tag">爆发</div>
+				<div class="normal-tag">防护</div>
+				<div class="normal-tag">减速</div>
+				<div class="normal-tag">控场</div>
+				<div class="normal-tag">群攻</div>
+				<div class="selected-tag">生存</div>
+				<div class="normal-tag">输出</div>
+				<div class="normal-tag">位移</div>
+				<div class="normal-tag">削弱</div>
+				<div class="normal-tag">召唤</div>
+				<div class="normal-tag">治疗</div>
+				<div class="normal-tag">支援</div>
+				<div class="normal-tag">费用回复</div>
+				<div class="normal-tag">快速复活</div>
+				<div class="normal-tag">支援机械</div>
+			</div>
+		</div>
+	</div>
+	<h2>结果</h2>
+	<div>
+		<div class="card">
+			<div class="row">
+				<div class="normal-tag">狙击干员</div>
+				<div class="normal-tag">生存</div>
+			</div>
+			<div class="row">
+				<div class="operator">
+					<img src="https://prts.wiki/images/6/63/头像_杰西卡.png">
+				</div>
+				<div class="operator">
+					<img src="https://prts.wiki/images/6/63/头像_杰西卡.png">
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
